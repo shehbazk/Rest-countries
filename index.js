@@ -19,7 +19,6 @@ async function getCountry (){
 getCountry();
 
 function showCountry(data){
-    data.name.common.sort();
    const country =  document.createElement("div");
     country.classList.add("country");
     country.innerHTML = `
